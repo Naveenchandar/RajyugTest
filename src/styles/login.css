@@ -1,0 +1,24 @@
+.login{
+    display: flex;
+    justify-content: center;
+    margin: 10em;
+}
+.loginform input{
+    border: none;
+    border-bottom: 1px solid #e4601a;
+    margin: 10px;
+    width: 100%;
+}
+.loginform input:focus{
+    outline: none;
+}
+.loginform button{
+    background-color: #e4601a;
+    color: white;
+    padding: 7px;
+    border-radius: 8px;
+    width: 7em;
+}
+.IsLoggedIn{
+    display: none;
+}

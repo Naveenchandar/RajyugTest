@@ -1,0 +1,18 @@
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    border-bottom: 1px solid #e4601a;
+    padding-bottom: 15px;
+}
+.Navbar li a.active,.Navbar li a:hover {
+    border-bottom: 3px solid #e4601a;
+    padding-bottom: 13px;
+}
+
+.Navbar li a:link{
+    color: black;
+}
+.Navbar li a{
+    text-decoration: none;
+}

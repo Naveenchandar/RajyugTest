@@ -1,0 +1,14 @@
+.hrcontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hrcontent h4{
+    color: #e4601a;
+    padding: 3em;
+    border: 2px solid #e4601a;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.fa-group:before, .fa-users:before{
+    color: #e4601a;
+}
